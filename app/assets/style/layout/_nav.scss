@@ -1,0 +1,19 @@
+.navbar-nav {
+  .nav-item .nav-link {
+    color: $white;
+    padding: 0px 28px;
+
+    @include desktop {
+      text-align: center;
+      padding: 14px 0px;
+    }
+
+    &:hover {
+      color: $secondary-2;
+    }
+  }
+
+  .nav-item .nav-link.active {
+    color: $secondary-2;
+  }
+}

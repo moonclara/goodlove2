@@ -1,0 +1,10 @@
+.btn-light {
+    background: $white;
+    color: $secondary-1;
+
+    &:hover {
+        background: $secondary-1;
+        color: $white;
+    }
+
+}

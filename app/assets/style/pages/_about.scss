@@ -10,11 +10,13 @@
 
 .story {
     background-image: url(../images/bg-about-1.png);
-    min-height: 800px;
-    padding: 30rem 0 10rem 0;
+    padding: 20rem 0 10rem 0;
+    background-size: cover;
 
     @include pad {
-        padding: 10rem 0 0rem 0;
+        background-image: url(../images/bg-about-sm-1.png);
+        min-height: 167px;
+        padding: 16rem 0 6rem 0;
 
     }
 
@@ -27,11 +29,47 @@
     }
 }
 
-.process{
+.process {
     background-image: url(../images/bg-about-2.png);
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 20rem;
-    min-height: 3700px;
-}
+    min-height: 3600px;
 
+    @include pad {
+        background-image: none;
+        padding-top: unset;
+        padding-bottom: 18rem;
+    }
+
+    .process-space {
+        margin-top: -11rem;
+
+        @include pad {
+            margin-top: unset;
+        }
+    }
+
+    .process-deco-1 {
+        margin-top: 12rem;
+        margin-left: 5rem;
+
+        @include pad {
+            display: none;
+        }
+    }
+
+    .process-deco-2 {
+        margin-top: 12rem;
+        margin-right: -2rem;
+
+        @include pad {
+            display: none;
+        }
+    }
+
+    img {
+            max-width: 80%;
+            margin: 0 auto;
+    }
+}

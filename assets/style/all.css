@@ -13141,6 +13141,7 @@ fieldset:disabled .btn {
 
 .environment {
   padding: 5rem 0;
+  padding: 10rem 0;
 }
 
 .environment .contaniner {
@@ -13148,8 +13149,8 @@ fieldset:disabled .btn {
 }
 
 .feature {
-  padding-top: 2.5rem;
-  padding-bottom: 2rem;
+  padding-top: 5rem;
+  padding-bottom: 20rem;
 }
 
 .season {
@@ -13224,7 +13225,8 @@ fieldset:disabled .btn {
 }
 
 .product-intro {
-  padding: 8rem 0 35rem 0;
+  padding-top: 8rem;
+  padding-bottom: 35rem;
 }
 
 @media (max-width: 768px) {

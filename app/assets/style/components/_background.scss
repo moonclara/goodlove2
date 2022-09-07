@@ -1,0 +1,29 @@
+.backgroundlayout {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.list-content {
+    position: relative;
+
+    .list-circle::before {
+        content: "";
+        width: 36px;
+        height: 36px;
+        background: #F5EDE0;
+        position: absolute;
+        border-radius: 50%;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-left: 3rem;
+        line-height: 36px;
+    }
+}

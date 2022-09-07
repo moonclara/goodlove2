@@ -1,0 +1,54 @@
+.shop {
+    background-image: url(../images/about.jpg);
+    min-height: 520px;
+
+    h1 {
+        padding-top: 20rem;
+    }
+}
+
+.shop-direction {
+    padding: 8rem 0 35rem 0;
+    position: relative;
+
+    @include pad {
+        padding: 4rem 0;
+    }
+
+    .btn {
+        padding: 1rem 0;
+    }
+
+    .shop-direction-circle::before {
+        content: "";
+        width: 24px;
+        height: 24px;
+        background: #F5EDE0;
+        position: absolute;
+        border-radius: 50%;
+    }
+
+    .shop-direction-circle-left::before {
+        content: "";
+        width: 24px;
+        height: 24px;
+        background: #F5EDE0;
+        position: absolute;
+        border-radius: 50%;
+        margin-left: 2rem;
+    }
+
+    .card-body {
+        padding: 4rem;
+        background: #FFFAF2;
+    }
+
+    p {
+        margin-left: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .shop-direction-text-left {
+        margin-left: 4rem;
+    }
+}

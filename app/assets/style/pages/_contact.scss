@@ -1,0 +1,42 @@
+.contact {
+    background-image: url(../images/about.jpg);
+    min-height: 520px;
+
+    h1 {
+        padding-top: 20rem;
+    }
+}
+
+.contact-us {
+    padding: 5rem 0;
+
+    @include pad {
+        padding: 0;
+    }
+
+}
+
+.contact-ask {
+    background-image: url(../images/bg-contact-1.jpg);
+    min-height: 600px;
+    opacity: 0.8;
+    margin-bottom: 10rem;
+    @include pad {
+        margin-bottom: 5rem;
+
+    
+        }
+
+}
+
+.contact-form{
+    padding-bottom: 35rem;
+    max-width: 50%;
+
+    @include pad {
+    padding-bottom: 20rem;
+
+        max-width: 100%;
+
+    }
+}

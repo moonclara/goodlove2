@@ -1,0 +1,37 @@
+.product {
+    background-image: url(../images/about.jpg);
+    min-height: 520px;
+
+    h1 {
+        padding-top: 20rem;
+    }
+}
+
+.product-intro {
+    padding: 8rem 0 35rem 0;
+
+    @include pad {
+        padding: 4rem 0;
+    }
+
+    .card {
+        border-radius: 20px;
+    }
+
+    .btn {
+        background: $secondary-4;
+        color: $primary;
+
+        &:hover {
+            background: $primary;
+            color: $secondary-4;
+        }
+
+    }
+
+    a {
+        color: #6A6561;
+
+    }
+
+}

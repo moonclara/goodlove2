@@ -1,9 +1,27 @@
+//v1
+// .footer {
+//   p {
+//     padding: 12px 0px;
+//   }
+
+//   a img:hover{
+//     opacity: 0.8;
+//   }
+// }
+
+//v2
 .footer {
-  p {
-    padding: 12px 0px;
+  background-image: url(../images/bg-footer.png);
+  min-height: 706px;
+  margin-top: -26rem;
+  padding-top: 28rem;
+
+  @include pad {
+    background-image: url(../images/bg-footer-sm.png);
+    min-height: 525px;
+    margin-top: -16rem;
+    padding-top: 10rem;
   }
 
-  a img:hover{
-    opacity: 0.8;
-  }
+
 }

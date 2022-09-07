@@ -1,0 +1,129 @@
+---
+title: 人情是菇
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<header class="shop backgroundlayout img-responsive">
+  <div class="container">
+    <h1 class="text-white fw-bold m-0">購物說明</h1>
+  </div>
+</header>
+<section class="shop-direction">
+  <div class="container">
+    <div class="mb-6">
+      <a data-bs-toggle="collapse" data-bs-target="#notice" aria-expanded="false" aria-controls="notice"
+        style="cursor: pointer;">
+        <div id="shop-notice" class="d-flex justify-content-between align-items-center border border-primary px-4">
+          <button class="btn rounded-0 text-primary" type="button">
+            購物須知
+          </button>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+      </a>
+      <div class="collapse mt-4" id="notice">
+        <div class="card card-body border-0">
+          <div class="shop-direction-circle"></div>
+          <p>出貨時間 : 於3個工作日內處理訂單</p>
+
+          <div class="shop-direction-circle"></div>
+          <p>運送工作日 : 約3-7個工作天(不含例假日)</p>
+
+          <div class="shop-direction-circle"></div>
+          <p>國定例假日或天候因素致使停班除外，若有特殊訂單或緊急訂單，請於工作時段來電或來信詢問</p>
+
+          <div class="shop-direction-circle"></div>
+          <p>電話 : OOOOOOOOOO</p>
+
+          <div class="shop-direction-circle"></div>
+          <p>信箱 : OOOOOOOOOOOOO</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mb-6">
+      <a data-bs-toggle="collapse" data-bs-target="#freight" aria-expanded="false" aria-controls="freight"
+        style="cursor: pointer;">
+        <div class="d-flex justify-content-between align-items-center border border-primary px-4">
+          <button id="shop-freight" class="btn rounded-0 text-primary" type="button">
+            運費及配送
+          </button>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+      </a>
+      <div class="collapse mt-4" id="freight">
+        <div class="card card-body border-0">
+          <div class="shop-direction-circle"></div>
+          <p>運費 : OO元(滿OOO免運)</p>
+
+          <div class="shop-direction-circle"></div>
+          <p>配送方式 : 宅配、超商取貨(7-11、全家、OK)</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mb-6">
+      <a data-bs-toggle="collapse" data-bs-target="#payment" aria-expanded="false" aria-controls="payment"
+        style="cursor: pointer;">
+        <div class="d-flex justify-content-between align-items-center border border-primary px-4">
+          <button id="shop-payment" class="btn rounded-0 text-primary" type="button">
+            付款方式
+          </button>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+      </a>
+      <div class="collapse mt-4" id="payment">
+        <div class="card card-body border-0">
+          <div class="shop-direction-circle"></div>
+          <p>銀行 : OOOOOOOO</p>
+
+          <div class="shop-direction-circle"></div>
+          <p>帳號 : OOOOOOOOOOOOOOOO</p>
+
+          <div class="shop-direction-circle"></div>
+          <p>戶名 : OOOOOOO</p>
+
+          <div class="shop-direction-circle"></div>
+          <p>其他 : 轉帳後請以E-mail或電話告知匯款日期、匯款金額、匯款行庫、帳號末五碼。並請於訂購日起算3天內完成付款，逾期恕無法為您保留訂單。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mb-0">
+      <a data-bs-toggle="collapse" data-bs-target="#return" aria-expanded="false" aria-controls="return"
+        style="cursor: pointer;">
+        <div class="d-flex justify-content-between align-items-center border border-primary px-4">
+          <button id="shop-return" class="btn rounded-0 text-primary" type="button">
+            退換貨說明
+          </button>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+      </a>
+      <div class="collapse mt-4" id="return">
+        <div class="card card-body border-0">
+          <div class="shop-direction-circle"></div>
+          <p>退換貨原則 : </p>
+
+          <div class="shop-direction-circle-left"></div>
+          <p class="shop-direction-text-left">包裝完整:為維護食品安全，開封後產品無法退換貨</p>
+
+          <div class="shop-direction-circle-left"></div>
+          <p class="shop-direction-text-left">商品瑕疵:品質有異或口味錯放可接受退換貨</p>
+
+          <div class="shop-direction-circle-left"></div>
+          <p class="shop-direction-text-left">購買證明:發票或收據不齊，恕無法退換貨</p>
+
+          <div class="shop-direction-circle-left"></div>
+          <p class="shop-direction-text-left">七日鑑賞期:超過商品收迄日7天(包含例假日)無法退換貨(以宅配簽收單或郵戳日期為憑)</p>
+
+          <div class="shop-direction-circle"></div>
+          <p>退換貨時間 : </p>
+
+          <div class="shop-direction-circle-left"></div>
+          <p class="shop-direction-text-left">約7個工作日</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

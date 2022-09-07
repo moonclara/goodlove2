@@ -1,0 +1,104 @@
+---
+title: 人情是菇
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<header class="contact backgroundlayout img-responsive">
+  <div class="container">
+    <h1 class="text-white fw-bold m-0">聯絡我們</h1>
+  </div>
+</header>
+
+<section class="contact-us">
+  <div class="container">
+    <div class="row py-7">
+      <div class="col-lg-4 col-md-12">
+        <div class="card border-0 text-center d-block mx-auto">
+          <img src="./assets/images/contact-phone.png" alt="phone" width="166">
+          <div class="card-body">
+            <p class="text-primary fw-bold fs-4 m-2">電話</p>
+            <p class="text-secondary-1 fs-5">OOOOOOOOOO</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12">
+        <div class="card border-0 text-center d-block mx-auto">
+          <img src="./assets/images/contact-time.png" alt="time" width="166">
+          <div class="card-body">
+            <p class="text-primary fw-bold fs-4 m-2">營業時間</p>
+            <p class="text-secondary-1 fs-5">週一至週五 08:30~17:30</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12">
+        <div class="card border-0 text-center d-block mx-auto">
+          <img src="./assets/images/contact-mail.png" alt="mail" width="166">
+          <div class="card-body">
+            <p class="text-primary fw-bold fs-4 m-2">E-mail</p>
+            <p class="text-secondary-1 fs-5">OOOOOOOOOO@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+<!-- <section>
+  <div class="container-fluid g-0">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4327.325673873065!2d120.79504511695602!3d24.212640119501557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34691bf8f6207b75%3A0x2cb23b1ea2af3582!2z57Wx5LiA57K-5belLemAn-mCgeaogiDmlrDnpL7nq5k!5e0!3m2!1szh-TW!2stw!4v1662261592131!5m2!1szh-TW!2stw"
+      width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section> -->
+
+<section>
+  <div class="contact-ask backgroundlayout img-responsive text-center d-flex flex-column justify-content-center">
+    <div class="container">
+      <h2 class="text-secondary-4 fw-bold mb-6">Contact us</h2>
+      <p class="text-secondary-4 mb-6 fs-5">如有大量訂購需求或合作事宜，<br>
+        請於營業時間來電洽詢或是E-mail聯絡!</p>
+      <a href="#contact-form">
+        <button type="submit" class="btn btn-light rounded-pill fw-bold px-5 py-2">聯絡我們</button>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="contact-form mx-auto" id="contact-form">
+  <div class="container">
+    <form class="row g-3">
+      <div class="col-md-12">
+        <label for="inputName" class="form-label text-secondary-1 fs-4 fw-bold">姓名</label>
+        <input type="text" class="form-control form-control-lg mb-2 rounded-3 border-0 bg-secondary-3" id="inputName" required>
+      </div>
+      <div class="col-md-12">
+        <label for="inputPhone" class="form-label text-secondary-1 fs-4 fw-bold">電話</label>
+        <input type="text" class="form-control form-control-lg mb-2 rounded-3 border-0 bg-secondary-3" id="inputPhone" required>
+      </div>
+      <div class="col-md-12">
+        <label for="inputEmail" class="form-label text-secondary-1 fs-4 fw-bold">Email</label>
+        <input type="email" class="form-control form-control-lg mb-2 rounded-3 border-0 bg-secondary-3" id="inputEmail" required>
+      </div>
+      <div class="col-md-12">
+        <label for="inputCategory" class="form-label text-secondary-1 fs-4 fw-bold">詢問類別</label>
+        <select id="inputCategory" class="form-select form-select-lg mb-2 rounded-3 border-0 bg-secondary-3" required>
+          <option selected>合作事宜</option>
+          <option>大量訂購</option>
+        </select>
+      </div>
+      <div class="col-md-12">
+        <label for="exampleFormControlTextarea1" class="form-label text-secondary-1 fs-4 fw-bold">詢問事由</label>
+        <textarea class="form-control form-control-lg mb-5 rounded-3 border-0 bg-secondary-3" id="exampleFormControlTextarea1" rows="5" required></textarea>
+      </div>
+      <div class="col-md-4 d-grid mx-auto">
+        <button type="submit" class="btn btn-secondary-1 rounded-pill fw-bold px-4 py-3">送出</button>
+      </div>
+    </form>
+  </div>
+</section>
+

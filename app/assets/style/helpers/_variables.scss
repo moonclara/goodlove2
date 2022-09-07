@@ -71,6 +71,7 @@ $primary:       #977861; // $blue !default;
 $secondary-1:   #6a6561; //$gray-600 !default;
 $secondary-2:   #9e8621; //$gray-600 !default;
 $secondary-3:   #f5ede0; //$gray-600 !default;
+$secondary-4:   #fffaf2; //$gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -85,6 +86,7 @@ $theme-colors: (
   "secondary-1":  $secondary-1,
   "secondary-2":  $secondary-2,
   "secondary-3":  $secondary-3,
+  "secondary-4":  $secondary-4,
   "success":    $success,
   "info":       $info,
   "warning":    $warning,

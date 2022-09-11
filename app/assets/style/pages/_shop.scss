@@ -41,6 +41,9 @@
     .card-body {
         padding: 4rem;
         background: #FFFAF2;
+        @include pad{
+            padding: 2rem;
+        }
     }
 
     p {
